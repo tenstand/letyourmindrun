@@ -11,4 +11,18 @@
 body{
     font-family: Lato, Sans-serif;
     font-weight: 300;
+    font-color: #444444;
+}
+
+/*headings and logo*/
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: titlecase;
+    letter-spacing: 4px;
+    color: lightslategray;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
