@@ -58,8 +58,8 @@ h1, h2 {
 
 /* hero pic */
 
-#hero-image {
+#hero-pic {
     height: 500px;
     width: 100%;
-    background: url('../images/hero-pic.jpg');
+    background: url('../images/hero-pic.jpg') no-repeat center center;
 }
