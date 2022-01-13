@@ -97,3 +97,9 @@ h1, h2 {
     clear: both;
     margin-bottom: 50px;
 }
+#welcome {
+    text-align: center;
+}
+#welcome p {
+    text-align: center;
+}
