@@ -194,49 +194,37 @@ footer {
 
 * {box-sizing: border-box}
 
-  input[type=text], input[type=password] {
+  input[type=text] {
   width: 50%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: lightslategrey;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: lightslategray;
-  outline: none;
+  background: rgb(173, 171, 171);
 }
 
 hr {
-  border: 1px solid #444444;
-  margin-bottom: 25px;
+  border: 0.5px solid lightslategrey;
+  margin-bottom: 50px;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: #444444;
+  background-color: lightslategrey;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   opacity: 0.9;
 }
 
 button:hover {
   opacity:1;
 }
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: red;
-}
-
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+.signupbtn {
   float: left;
   width: 50%;
 }
