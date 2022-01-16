@@ -66,7 +66,7 @@ There are no unfixed bugs.
 ## Validator testing
 HTML - used [W3 Validation Markup Validation Service](https://validator.w3.org) to test my site. It showed broken broken links, which I was able to fix.
 
-CSS - used [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+CSS - used [CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test my CSS. I had added the link to Google Fonts instead of the import link.
 
 Accessability - The site was run through Lighthouse and confirms a ??% score for accessability.
 
