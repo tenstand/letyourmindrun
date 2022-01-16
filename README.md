@@ -22,6 +22,23 @@ There is a short introduction about mindfulness and mindful running.
 
 ADD PICTURE
 
-##The About section
+##The About page
+The About page gives more details about what mindful running is and 7 tips about how to get started.
+
+ADD PICTURE
+
+##The sign up page
+The sign up page is a form for users to sign up to the Let Your Mind Run monthly newsletter.
+It asks for first name, surname and email address.
+The sign up form is integral for the user to gain further information.
+
+ADD PICTURE
+
+##The footer
+The footer includes contact information including a phone number and email address.
+It includes social media icons for Facebook, Twitter and Instagram which is valuale to the user to find out more information about LYMR and whether it's a trusted organisation.
+The footer appears on the three pages.
+
+ADD PICTURE
 
 
