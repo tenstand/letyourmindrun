@@ -81,6 +81,9 @@ header {
     width: 100%;
     background: url('../images/hero-pic.jpg') no-repeat center center;
 }
+#about-img{
+  width:100%
+}
 
 /* mindful running */
 
