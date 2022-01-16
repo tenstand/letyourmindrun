@@ -1,6 +1,6 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+</style>
 
 * {
     margin: 0;
@@ -18,7 +18,7 @@ body{
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: lightslategray;
 }
 
@@ -167,7 +167,7 @@ footer {
 
 #contact {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 #address {
