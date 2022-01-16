@@ -23,7 +23,8 @@ There is a short introduction about mindfulness and mindful running.
 ADD PICTURE
 
 ##The About page
-The About page gives more details about what mindful running is and 7 tips about how to get started.
+The About page inludes a different header image, again depicting a calm running environment
+It gives more details about what mindful running is and 7 tips about how to get started.
 
 ADD PICTURE
 
@@ -40,5 +41,57 @@ It includes social media icons for Facebook, Twitter and Instagram which is valu
 The footer appears on the three pages.
 
 ADD PICTURE
+
+#Testing
+
+The website works in different browsers Chrome, Safari and Firefox
+The website is responsive and functions on all standard screen sizes using devtools.
+Each page text is readable and easy to understand.
+The sign up form works and will the submit button only works if the fields have been entered correctly.
+
+##Bugs
+When I first deplyed my project the images didn't show. I fixed this by usiing a relative link on each image ./assets/images/site-logo.jpg
+There are no unfixed bugs.
+
+##Validator testing
+HTML - used https://validator.w3.org to test my site. It showed broken broken links, which I was able to fix.
+CSS - used https://jigsaw.w3.org/css-validator/
+Accessability - The site was run through lighthouse and confirms a ??% score for accessability.
+
+INCLUDE PICTURE
+
+##Deployment
+
+The live link is here: https://tenstand.github.io/letyourmindrun/sign-up.html
+
+The site was deployed to GitHub pages via the GitHub repository, settings, GitHub pages and then select main.
+
+#Credits
+
+##Code
+The code to make the nav bar and the social media links was taken from the CI Love Running Project
+The sign up form code was taken from W3Schools
+
+##Media
+Google Fonts was used for the Lato and Oswald fonts 
+Font Awsome was used for the social media icons
+All images were downloaded from Pexels
+Photoshop was used to resize the images
+Balsamiq was used to create the wireframe during the design process.
+
+##Content
+All content was edited by myself using references from:
+https://runkeeper.com/cms/health/mental-health/mindfulness-101-master-the-art-of-mindful-running/
+https://www.runnersworld.com/uk/health/mental-health/a34329221/how-to-be-a-mindful-runner/
+
+##Acknowledgements
+Code Institute tutor support
+My mentor for helpful feedback
+
+
+
+
+The site was deploted to GitHub pages
+
 
 
