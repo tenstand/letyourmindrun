@@ -11,23 +11,22 @@
 body{
     font-family: Lato, Sans-serif;
     font-weight: 300;
-}
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+    min-height: 100%;
 }
 
 /*headings and logo*/
 h1, h2 {
     font-family: Oswald, sans-serif;
-    text-transform: titlecase;
+    text-transform: none;
     letter-spacing: 2px;
     color: lightslategray;
+}
+
+h3, h4 {
+  font-family: Lato, sans-serif;
+  text-transform: none;
+  letter-spacing: 1px;
+  color: white;
 }
 
 header {
@@ -93,13 +92,13 @@ header {
 
 #left-about {
     padding-top: 30px;
-    width: 48%;
+    width: 45%;
     float: left
 }
 
 #right-about {
     padding-top: 30px;
-    width: 48%;
+    width: 45%;
     float: right;
 }
 
@@ -159,9 +158,21 @@ header {
 /* footer */
 
 footer {
-  height: 200px;
+  clear: both;
+  position: relative;
+  height: 300px;
+  margin-top: -200px;
   background: #444444;
-  margin-top: 300px;
+}
+
+#contact {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#address {
+  text-align: center;
+  color: white;
 }
 
 .social-media {
@@ -183,14 +194,13 @@ footer {
 
 * {box-sizing: border-box}
 
-/* Full-width input fields */
   input[type=text], input[type=password] {
-  width: 100%;
+  width: 50%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: lightsteelblue;
+  background: lightslategrey;
 }
 
 input[type=text]:focus, input[type=password]:focus {
