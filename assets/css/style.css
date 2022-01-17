@@ -215,12 +215,17 @@ footer {
 }
 
   input[type=text] {
-  width: 60%;
+  width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: rgb(173, 171, 171);
+  background: #f1f1f1;
+}
+
+input [type=text]: :focus {
+  background-color: #ddd;
+  outline: none;
 }
 
 hr {
@@ -237,17 +242,17 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 60%;
   opacity: 0.9;
 }
 
 button:hover {
   opacity:1;
 }
-/* Float cancel and signup buttons and add an equal width */
+/* Float signup buttons and add an equal width */
 .signupbtn {
   float: left;
-  width: 60%;
+  width: 50%;
 }
 
 /* Add padding to container elements */
@@ -262,9 +267,9 @@ button:hover {
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+/* Change styles for signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+  .signupbtn {
     width: 100%;
   }
 }
@@ -321,7 +326,7 @@ button:hover {
 
 #mindful-running{
   width:90%;
-  height: 1200px;
+  height: 100vh;
   margin-bottom: 40px;
 }
 

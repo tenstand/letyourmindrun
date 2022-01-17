@@ -37,14 +37,17 @@
     <form action="form.php" style="border:1px solid #ccc">
         <div class="container">
           <h2>Sign up to our newsletter</h2>
-          <p>Please fill in this form to receive our latest monthly news about mindful running.</p>
+          <br><p>Please fill in this form to receive our latest monthly news about mindful running.</p>
           <hr>
 
-        <input type="text" placeholder="Please enter your first name" name="first_name" required>
-            
-        <input type="text" placeholder="Please enter your surname" name="last_name" required>
+          <label for="fname"> First name</label>
+          <br><input type="text" placeholder="Please enter your first name" name="first_name" required>
+           
+          <label for="sname"> Surname name</label>
+          <br><input type="text" placeholder="Please enter your surname" name="last_name" required>
       
-        <input type="text" placeholder="Please enter your email address" name="email" required>
+        <label for="email"> Email address</label>
+        <br><input type="text" placeholder="Please enter your email address" name="email" required>
       
           <div class="clearfix">
             <button type="submit" class="signupbtn">Sign Up</button>
