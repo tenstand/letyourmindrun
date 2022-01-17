@@ -71,9 +71,7 @@ header {
 /* hero pic */
 
 #hero-pic {
-    height: 450px;
     width: 100%;
-    background: url('../images/hero-pic.jpg') no-repeat center center;
 }
 #about-img{
   width:100%
@@ -118,6 +116,16 @@ header {
 }
 #message {
     text-align: center;
+}
+
+#mindfulness-img {
+  width:400px; 
+  height:300px;
+}
+
+#mindful-run-img {
+  width:400px; 
+  height:300px;
 }
 
 /* what is mindful running */
@@ -264,6 +272,12 @@ button:hover {
     padding: 0;
 }
 
+#mindfulness-img, #mindful-run-img {
+    width:100%;
+    float:left;
+    padding: 10px;
+}
+
 #what-is-mindful-running{
   width: 65%;
   height: 1200px;
@@ -332,10 +346,10 @@ button:hover {
 @media only screen and (max-width: 768px) {
   
   #hero-pic {
-  width: 100%
+  width: 100%;
   }
 
   #about-img {
-    width: 100%
+    width: 100%;
   }
 }
