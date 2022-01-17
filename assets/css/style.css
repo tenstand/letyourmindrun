@@ -14,8 +14,9 @@ html{
 body{
     font-family: Lato, Sans-serif;
     font-weight: 300;
-    min-height: 100%;
-    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* headings */
@@ -175,12 +176,7 @@ header {
 /* footer */
 
 footer {
-  clear: both;
-  position: relative;
-  height: 300px;
-  margin-top: -200px;
-  background: #444444;
-  padding-top: 30px;
+  margin-top: auto;
 }
 
 #contact {
