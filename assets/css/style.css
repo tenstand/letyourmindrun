@@ -125,16 +125,19 @@ header {
 }
 #message {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #mindfulness-img {
-  width:400px; 
-  height:300px;
+  width:100%;
+  padding-top: 10px; 
+  padding-bottom: 10px;
 }
 
 #mindful-run-img {
-  width:400px; 
-  height:300px;
+  width:100%; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
 }
 
 /* what is mindful running */
@@ -152,17 +155,19 @@ header {
 }
 
 .left-side-heading {
+  padding-top: 30px;
   width: 65%;
   float: right;
-  line-height: 20px;
+  line-height: 30px;
   clear: both;
   margin-bottom: 50px;
 }
 
 .right-side-heading {
+  padding-top: 30px;
   width: 65%;
   float: left;
-  line-height: 20px;
+  line-height: 30px;
   clear: both;
   margin-bottom: 50px;
 }
@@ -180,6 +185,7 @@ footer {
 #contact {
   text-align: center;
   padding-top: 30px;
+  margin-bottom: 20px;
 }
 
 #address {
@@ -207,7 +213,7 @@ footer {
 * {box-sizing: border-box}
 
   input[type=text] {
-  width: 50%;
+  width: 60%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -217,6 +223,7 @@ footer {
 
 hr {
   border: 0.5px solid lightslategrey;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 
@@ -238,7 +245,7 @@ button:hover {
 /* Float cancel and signup buttons and add an equal width */
 .signupbtn {
   float: left;
-  width: 50%;
+  width: 60%;
 }
 
 /* Add padding to container elements */
@@ -263,7 +270,7 @@ button:hover {
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
 #mindful-running{
       width: 65%;
       height: 1200px;
@@ -299,10 +306,10 @@ button:hover {
   padding: 0;
 }
 }
-/* For medium screens sizes from 950px wide and down */
+/* For medium screens */
 @media screen and (max-width: 950px){
 
-#menu{
+#menu {
     clear: left;
     float: left;
     margin-left: 30px; 
