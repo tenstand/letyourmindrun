@@ -180,6 +180,7 @@ footer {
   height: 300px;
   margin-top: -200px;
   background: #444444;
+  padding-top: 30px;
 }
 
 #contact {
@@ -210,7 +211,9 @@ footer {
 
 /* sign up form */
 
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box
+}
 
   input[type=text] {
   width: 60%;
