@@ -14,7 +14,7 @@ body{
     min-height: 100%;
 }
 
-/*headings and logo*/
+/* headings */
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: none;
@@ -34,11 +34,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-#logo {
-    /* float: left; */
-    font-size: 280%;
 }
 
 /* navigation links */
@@ -269,6 +264,18 @@ button:hover {
     padding: 0;
 }
 
+#what-is-mindful-running{
+  width: 65%;
+  height: 1200px;
+  margin: 0 auto;
+}
+
+#left-side, #right-side {
+  width:100%;
+  float:left;
+  padding: 0;
+}
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
@@ -280,10 +287,10 @@ button:hover {
     line-height: 25px;
   }
 
-  #mindful-running{
-    width:90%;
-    height: 1200px;
-    margin: 0 auto;
+#mindful-running{
+  width:90%;
+  height: 1200px;
+  margin: 0 auto;
 }
 
 .left-about-heading, .right-about-heading{
@@ -300,5 +307,35 @@ button:hover {
   padding: 0 20px 0 20px;
 }
 
+#what-is-mindful-running{
+  width:90%;
+  height: 1200px;
+  margin: 0 auto;
+}
 
+.left-side-heading, .right-side-heading{
+    width: inherit;
+}
 
+.left-side-heading h2, .right-side-heading h2{
+  width: 100%;
+  text-align: center;
+}
+
+.left-side-heading p, .right-side-heading p{
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  
+  #hero-pic {
+  width: 100%
+  }
+
+  #about-img {
+    width: 100%
+  }
+}
