@@ -326,8 +326,7 @@ button:hover {
 
 #mindful-running{
   width:90%;
-  height: 1200px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .left-about-heading, .right-about-heading{
@@ -342,7 +341,6 @@ button:hover {
 .left-about-heading p, .right-about-heading p{
   text-align: center;
   padding: 0 20px 0 20px;
-  margin-bottom: 50px;
 }
 
 #what-is-mindful-running{
