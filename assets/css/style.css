@@ -14,7 +14,7 @@ html{
 body{
     font-family: Lato, Sans-serif;
     font-weight: 300;
-    min-height: 100vh;
+    height: 100vh;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -180,6 +180,7 @@ header {
 footer {
   margin-top: auto;
   background: #444444;
+  flex: 0 0 200px
 }
 
 #contact {
