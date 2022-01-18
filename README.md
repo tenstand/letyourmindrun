@@ -6,6 +6,7 @@ It gives basic information about mindfulness and the art of mindful running as w
 
 Users of the website will be able to sign up to receive a monthly newsletter.
 
+![responsive-site](ami-responsive.jpg)
 
 # Features
 
@@ -14,14 +15,20 @@ The top left of the page includes the Let Your Mind Run logo. The links to the r
 The navigation fonts are clear and simple and asthetically pleasing, The colour contrasts to the background.
 The navigation shows the name of the website and the different sections are easy to navigate.
 
+![navigation](nav.jpg)
+
 ## The header
 The header uses the hero image of a female runner oudoors in a calming location, which depicts what the website is trying to achieve.
 There is a short introduction about mindfulness and mindful running.
+
+![header](header.jpg)
 
 ## The About page
 The About page inludes a different header image, again depicting a calm running environment
 
 It gives more details about what mindful running is and 7 tips about how to get started.
+
+![about](about-section.jpg)
 
 ## The sign up page
 The sign up page is a form for users to sign up to the Let Your Mind Run monthly newsletter.
@@ -30,10 +37,14 @@ It asks for first name, surname and email address.
 
 The sign up form is integral for the user to gain further information.
 
+![sign-up](sign-up.png)
+
 ## The footer
 The footer includes social media icons for Facebook, Twitter and Instagram which is valuale to the user to find out more information about LYMR and whether it's a trusted organisation.
 
 The footer appears on all three pages.
+
+![footer](footer.jpg)
 
 # Testing
 
@@ -56,6 +67,8 @@ HTML - used [W3 Validation Markup Validation Service](https://validator.w3.org) 
 CSS - used [CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test my CSS. I had added the link to Google Fonts instead of the import link.
 
 Accessability - The site was run through Lighthouse and confirms a 100% score for accessability.
+
+![accessability](lighthouse.jpg)
 
 ##Deployment
 
@@ -94,5 +107,3 @@ All content was edited by myself using references from:
 Code Institute tutor support.
 
 My mentor for helpful feedback.
-
-[Please note I had issues including picture files in teh README.md document and ran out of time to work out this problem before the deadline]
